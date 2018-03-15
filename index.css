@@ -1,0 +1,75 @@
+body {
+  background-color: #9C9FA3;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+
+header {
+  padding: 10px 30px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3em;
+  font-family: 'Itim', cursive;
+}
+
+section {
+  padding: 10px 20px;
+}
+section .description {
+  margin-bottom: 30px;
+}
+section .description h3 {
+  font-size: 1.5em;
+  margin: 0 3em;
+  color: #373734;
+}
+section table {
+  width: 100%;
+  table-layout: fixed;
+}
+section table td {
+  width: 25%;
+}
+td {
+  position: relative;
+  text-align: center;
+}
+.onTopText {
+  display: none;
+  color: white;
+  padding: 0 0 0 5px;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  letter-spacing: 1px;
+}
+td:hover .onTopText {
+  display: inherit;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(102, 102, 101, 0.7);
+  text-align: right;
+}
+footer p {
+  color: #C5CBD2;
+  margin: 15px 20px;
+  letter-spacing: 2px;
+  font-size: 0.8em;
+}
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+footer a:hover {
+  color: #373734;
+}
+footer span {
+  color: #63585A;
+}
