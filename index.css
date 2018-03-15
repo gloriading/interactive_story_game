@@ -39,7 +39,9 @@ td {
 .onTopText {
   display: none;
   color: white;
-  padding: 0 0 0 5px;
+  padding: 10px 0 10px 5px;
+  background-color: rgba(205, 92, 92, 0.3);
+  border-radius: 10px;
   position: absolute;
   top: 30%;
   left: 10%;
