@@ -72,7 +72,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgba(102, 102, 101, 0.7);
+  background-image: linear-gradient(to top, rgba(102, 102, 101, 0.7) , #9C9FA3);
   text-align: right;
 }
 footer p {
