@@ -41,6 +41,12 @@ section .description h3 {
   margin: 0 3em;
   color: #373734;
 }
+
+.description img {
+  margin-left: 40%;
+  filter: invert(100%);
+}
+
 section table {
   width: 100%;
   table-layout: fixed;
@@ -63,10 +69,21 @@ td {
   left: 10%;
   letter-spacing: 1px;
 }
+
 td:hover .onTopText {
   display: inherit;
 }
 
+.onTopText-clear{
+  color: white;
+  padding: 45px 0 45px 5px;
+  background-color: rgba(255, 20, 147, 0.5);
+  border-radius: 10px;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  letter-spacing: 1px;
+}
 /*      door-start-four     */
 
 .container {
